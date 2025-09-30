@@ -32,10 +32,11 @@ android {
         targetCompatibility = JavaVersion.VERSION_11
     }
     kotlinOptions {
-        var jvmTarget = "11"
+        jvmTarget = "11"
     }
     buildFeatures {
         compose = true
+        buildConfig = true
     }
 }
 
